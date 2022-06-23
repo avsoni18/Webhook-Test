@@ -1,0 +1,28 @@
+{
+  "name": "sample_webhook",
+  "version": "1.0.0",
+  "description": "sample webhook for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeyjunaid/sample_webhook.git"
+  },
+  "author": "junaid shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heeyjunaid/sample_webhook/issues"
+  },
+  "homepage": "https://github.com/heeyjunaid/sample_webhook#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-winston": "^4.2.0",
+    "helmet": "^5.0.2",
+    "winston": "^3.7.2"
+  },
+  "keywords": []
+}
